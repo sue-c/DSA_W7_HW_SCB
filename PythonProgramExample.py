@@ -1,1 +1,3 @@
 Example
+
+* Test local editing
