@@ -1,9 +1,12 @@
+
+
+
 import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
 
-hwdata = pd.read_csv(r"C:\ETSProjects_SCB\UpskillTraining_2022\Week4\data for week4/science_response.csv")
+hwdata = pd.read_csv(r"C:\ETSProjects_SCB\UpskillTraining_2022\Week8_10\data_capstone_dsa2021_2022.csv")
 
 st.title('Cho-Baker Streamlit Practice: DSA HW4')
 
