@@ -4,7 +4,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import statsmodels as sm
 
 hwdata = pd.read_csv("DSA_capstone/data_capstone_dsa2021_2022.csv")
 
