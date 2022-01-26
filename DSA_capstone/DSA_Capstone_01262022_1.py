@@ -82,6 +82,6 @@ st.plotly_chart(fig9)
 
 st.subheader("Figure 7. Scatter plots between Rt Total and Sum Score buy Age")
 
-fig10=px.scatter(hwdata.sort_values('age'), x="rt_total", y= "sum_score", trendline="ols", animation_frame="age", range_x=(0,200), range_y=(0,25))
+fig10=px.scatter(hwdata.sort_values('age'), x="rt_total", y= "sum_score", trendline="ols", animation_frame="age", range_x=(0,2000), range_y=(0,25))
 
 st.plotly_chart(fig10)
