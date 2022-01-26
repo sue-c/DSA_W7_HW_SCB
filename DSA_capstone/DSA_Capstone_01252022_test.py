@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-hwdata = pd.read_csv(r"C:\ETSProjects_SCB\UpskillTraining_2022\Week8_10/data_capstone_dsa2021_2022.csv")
+hwdata = pd.read_csv("DSA_capstone/data_capstone_dsa2021_2022.csv")
 
 st.title('Sugene Cho-Baker: Data Science Academy Capstone')
 
