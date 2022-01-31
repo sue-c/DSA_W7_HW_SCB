@@ -73,16 +73,16 @@ st.subheader("Figure 5. Scatter plots between age and test outcomes")
 fig6=px.scatter_matrix(hwdata, dimensions=["age", "rt_total", "sum_score"])
 st.plotly_chart(fig6)
 
-st.header("Associations between Rt Total and Sum Score buy Gender, Test Site, and Age")
+st.header("Associations between Rt Total and Sum Score by Gender, Test Site, and Age")
 
-st.subheader("Figure 6. Scatter plots between Rt Total and Sum Score buy Gender and Test Site")
+st.subheader("Figure 6. Scatter plots between Rt Total and Sum Score by Gender and Test Site")
 
 ModeratorSelect = st.selectbox("Please select moderator variable: ", ["gender", "Test_Site"])
 
 fig9 = px.scatter(hwdata, x="rt_total", y= "sum_score", trendline="ols", color=ModeratorSelect)
 st.plotly_chart(fig9)
 
-st.subheader("Figure 7. Scatter plots between Rt Total and Sum Score buy Age")
+st.subheader("Figure 7. Scatter plots between Rt Total and Sum Score by Age")
 
 hwdata = hwdata.sort_values(by=['age'], ascending=True)
 
